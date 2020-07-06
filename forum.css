@@ -1,0 +1,80 @@
+
+*{
+    font-family: 'Pacifico regular';
+}
+
+html {
+	height: 100%;
+}
+
+a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+li {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 30px;
+    margin-bottom: -20;
+}
+legend {
+    color: white;
+}
+input {
+    margin: 1%;
+}
+.inputvalider {
+    margin-bottom: 8%;
+}
+h1 {
+    color: white;
+}
+.titre {
+    text-align: center;
+}
+.tete {
+    display: flex;
+    justify-content: center;
+}
+.en-tete {
+    top:0;
+    margin-bottom:-20;
+    margin: 0;
+    padding: 0;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color:;
+    opacity: 0,1;
+    border-radius: 15px;
+	text-align: center;
+	margin: auto;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+}
+body {
+    background-image: url(background-rap.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+	margin: 0;
+	padding: 0;
+    padding-bottom: 5em;
+    text-align: center;
+	position: relative;
+}
+.page {
+    text-align: center;
+    position:absolute;
+    top: 20;
+    bottom:-80;
+    width:100%;
+    color: white;
+    font-size: 15px;
+}
